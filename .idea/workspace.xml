@@ -5,6 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c3596eb8-924f-4965-9d79-e19e75c32851" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Analisis_y_organizacion_de_informacion/Analisis_de_registro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Analisis_y_organizacion_de_informacion/Ordenacion_y_busqueda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Indexacion_y_visualizacion_de_archivos/Indexacion_recursiva.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Indexacion_y_visualizacion_de_archivos/Organizacion_y_listado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Mapas_y_asociacion_de_datos/Gestion_de_relacciones.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Mapas_y_asociacion_de_datos/Recuperacion_eficiente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,9 +24,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2fPML1WhHXZ8r66CYO8bH6JbJIJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -28,8 +40,14 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/PC/Documents/intel j/casofinal_6",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -50,6 +68,8 @@
       <option name="presentableId" value="Default" />
       <updated>1713698203076</updated>
       <workItem from="1713698204259" duration="7000" />
+      <workItem from="1713779470024" duration="2904000" />
+      <workItem from="1713868564835" duration="250000" />
     </task>
     <servers />
   </component>
