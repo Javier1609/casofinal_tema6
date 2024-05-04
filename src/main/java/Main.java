@@ -35,10 +35,18 @@ class Interfaz_de_usuario extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 String[] parts = inputField.getText().split(",");
-                int first = Integer.parseInt(parts[0].trim());
-                int second = Integer.parseInt(parts[1].trim());
-                dataList.addPair(new Modelado_multidimensional(first, second));
-                updateList();
+                if (parts.length != 2) {
+                    JOptionPane.showMessageDialog(null, "Please enter two numbers separated by a comma.");
+                    return;
+                }
+                try {
+                    int first = Integer.parseInt(parts[0].trim());
+                    int second = Integer.parseInt(parts[1].trim());
+                    dataList.addPair(new Modelado_multidimensional(first, second));
+                    updateList();
+                } catch (NumberFormatException ex) {
+                    JOptionPane.showMessageDialog(null, "Please enter valid numbers.");
+                }
             }
         });
         add(addButton);
@@ -50,11 +58,19 @@ class Interfaz_de_usuario extends JFrame {
                 Modelado_multidimensional selectedPair = pairList.getSelectedValue();
                 if (selectedPair != null) {
                     String[] parts = inputField.getText().split(",");
-                    int first = Integer.parseInt(parts[0].trim());
-                    int second = Integer.parseInt(parts[1].trim());
-                    selectedPair.setFirst(first);
-                    selectedPair.setSecond(second);
-                    updateList();
+                    if (parts.length != 2) {
+                        JOptionPane.showMessageDialog(null, "Please enter two numbers separated by a comma.");
+                        return;
+                    }
+                    try {
+                        int first = Integer.parseInt(parts[0].trim());
+                        int second = Integer.parseInt(parts[1].trim());
+                        selectedPair.setFirst(first);
+                        selectedPair.setSecond(second);
+                        updateList();
+                    } catch (NumberFormatException ex) {
+                        JOptionPane.showMessageDialog(null, "Please enter valid numbers.");
+                    }
                 }
             }
         });
